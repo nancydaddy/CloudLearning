@@ -9,3 +9,6 @@ http://www.powerxing.com/hadoop-build-project-by-shell/<br>
 
 Hadoop 2.2.0 安装与运行（包含新版hadoop classpath变化的相关说明，也包含hadoop的第一个例子WordCount的详细说明）:<br>
 http://blog.sina.com.cn/s/blog_68cceb610101r6tg.html<br>
+
+ Hadoop+HBase+ZooKeeper分布式集群环境搭建:<br>
+ http://blog.csdn.net/lisonglisonglisong/article/details/46974723
