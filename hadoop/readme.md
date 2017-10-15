@@ -1,3 +1,6 @@
+《hadoop definitive guide》源代码:<br>
+https://github.com/tomwhite/hadoop-book
+<br>
 Hadoop安装教程_单机/伪分布式配置_Hadoop2.6.0/Ubuntu14.04<br>
 http://www.powerxing.com/install-hadoop/<br>
 <br>
