@@ -5,7 +5,7 @@ Building steps as following：
 1. Install git client software and run git init command (don't forget this command).
 2. Install gdk and set JAVA_HOME, CLASSPATH, PATH.
 3. Install ant and set ANT_HOME.
-4. run ant clean dist-dev command.
+4. run ant clean dist-dev command, building will fail and some failure about gwt-dev.jar will appeared.
 5. SOME CONFIGURATION FILES HAS BEEN CHANGED to pass through building by ant:
     1) distro-source\build.xml, comments move command as below shows:
       <target name="merge_codeserver">
@@ -36,3 +36,4 @@ Building steps as following：
 
             </sequential>
           </macrodef>
+6.run ant dist-dev again, no clean command this time.
