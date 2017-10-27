@@ -32,7 +32,6 @@ Building steps as following：
                   index=&quot;true&quot; update=&quot;@{update}&quot;&gt;
                 &lt;jarcontents/&gt;
               &lt;/jar&gt;
-
             &lt;/sequential&gt;
           &lt;/macrodef&gt;
 6. run ant dist-dev again, no clean command this time.
