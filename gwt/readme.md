@@ -1,6 +1,8 @@
 The download link of GWT SDK in www.gwtproject.org can not work because of web restriction from goverment.<br>
 So this gwt folder is worked out. This fold contains all GWT source codes, the version may be 2.5 which is not up-to-date.<br>
-Before you start building, please read https://github.com/gwtproject/gwt/readme.md firstly.
+<br>
+Before you start building, please read https://github.com/gwtproject/gwt/readme.md firstly.<br>
+<br>
 Building steps as following：<br>
 1. Install git client software and run git init command (don&#x27;t forget this command).<br>
 2. Install gdk and set JAVA_HOME, CLASSPATH, PATH.<br>
