@@ -19,4 +19,20 @@ Building steps as following：
       </target>
     
     2) common.ant.xml:
-      
+         <macrodef name="gwt.jar">
+            <attribute name="destfile" default="${project.lib}"/>
+            <attribute name="duplicate" default="fail"/>
+            <attribute name="update" default="true"/>
+            <element name="jarcontents" implicit="true"/>
+            <sequential>
+              <!--jar destfile="@{destfile}" duplicate="@{duplicate}" filesonly="false"
+                  index="true" update="@{update}">
+                <jarcontents/>
+              </jar-->
+              <jar destfile="@{destfile}" filesonly="false"
+                  index="true" update="@{update}">
+                <jarcontents/>
+              </jar>
+
+            </sequential>
+          </macrodef>
