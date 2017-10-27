@@ -8,7 +8,7 @@ Building steps as following：
 4. run ant clean dist-dev command, building will fail and some failure about gwt-dev.jar will appeared.
 5. SOME CONFIGURATION FILES HAS BEEN CHANGED to pass through building by ant:
     1) distro-source\build.xml, comments move command as below shows:
-    <p>
+    <!-->
       <target name="merge_codeserver">
         <echo message="Merge gwt-dev.jar and gwt-codeserver.jar" />
         <gwt.jar destfile="${gwt.build.out}/gwt-dev-merged.jar">
@@ -18,7 +18,7 @@ Building steps as following：
         <echo message="Overwriting gwt-dev.jar with merged gwt-dev.jar" />
         <!--move file="${gwt.build.out}/gwt-dev-merged.jar" tofile="${gwt.build.lib}/gwt-dev.jar"/-->
       </target>
-    </p>
+    <-->
     2) common.ant.xml:
          <macrodef name="gwt.jar">
             <attribute name="destfile" default="${project.lib}"/>
