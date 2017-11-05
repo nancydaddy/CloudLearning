@@ -8,6 +8,6 @@ You can also add aliyun's maven repository into settings.xml in maven's conf fol
     &lt;id&gt;nexus-aliyun&lt;/id&gt;<br>
     &lt;mirrorOf&gt;*&lt;/mirrorOf&gt;<br>
     &lt;name&gt;Nexus aliyun&lt;/name&gt;<br>
-    &lt;url&gt;http://maven.aliyun.com/nexus/content/groups/public &lt;/url&gt;<br>
+    &lt;url&gt;http://maven.aliyun.com/nexus/content/groups/public<br>&lt;/url&gt;<br>
 &lt;/mirror&gt;<br>
 　　
